@@ -1,0 +1,2514 @@
+TTapkuCalendarDemo
+v7
+r0
+t317173894.293707
+cCheck dependencies
+cProcessInfoPlistFile /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist TapkuCalendarDemo-Info.plist
+cCompileXIB /Users/ben/Downloads/TapkuCalendarDemo/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle Libraries/TapkuLibrary/TapkuLibrary.bundle
+cProcessPCH /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch.gch TapkuCalendarDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o /Users/ben/Downloads/TapkuCalendarDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o /Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o /Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo normal i386
+cGenerateDSYMFile /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+cTouch /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/ABTableViewCell.h
+c000000004D1FC46E00000000000005C8
+t1293927534
+s1480
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/ABTableViewCell.m
+c000000004D1FC46E0000000000000A61
+t1293927534
+s2657
+i"ABTableViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.h
+c000000004D2856D600000000000001C9
+t1294489302
+s457
+i<UIKit/UIKit.h>
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.m
+c000000004D29CAE80000000000001E15
+t1294584552
+s7701
+i"CalendarController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.h
+c000000004D28EF4800000000000001F7
+t1294528328
+s503
+i<UIKit/UIKit.h>
+i"CalendarController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m
+c000000004D28EF270000000000000ADB
+t1294528295
+s2779
+i"TapkuCalendarDemoAppDelegate.h"
+i"CalendarController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/Libraries/Categories/NSDate+Helper.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.h
+c000000004BF1B7F70000000000000A38
+t1274132471
+s2616
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.m
+c000000004D28612500000000000024F1
+t1294491941
+s9457
+i"NSDate+Helper.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/ABTableViewCell.h
+c000000004D1FC46E00000000000005C8
+t1293927534
+s1480
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/ABTableViewCell.m
+c000000004D1FC46E0000000000000A61
+t1293927534
+s2657
+i"ABTableViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/NSDate+TKCategory.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthView.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthView.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKGlobal.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TapkuLibrary.bundle
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/UIImage+TKCategory.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/UIView+TKCategory.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSArray+TKCategory.h
+c000000004D1FC46E000000000000050F
+t1293927534
+s1295
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSArray+TKCategory.m
+c000000004D1FC46E0000000000000571
+t1293927534
+s1393
+i"NSArray+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.h
+c000000004D1FC46E00000000000008F4
+t1293927534
+s2292
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m
+c000000004D2851200000000000002BDA
+t1294487840
+s11226
+i"NSDate+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSString+TKCategory.h
+c000000004D1FC46E000000000000054A
+t1293927534
+s1354
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSString+TKCategory.m
+c000000004D1FC46E0000000000001217
+t1293927534
+s4631
+i"NSString+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKAlertCenter.h
+c000000004D1FC46E000000000000060B
+t1293927534
+s1547
+i<Foundation/Foundation.h>
+i<TapkuLibrary/TapkuLibrary.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKAlertCenter.m
+c000000004D1FC46E00000000000019D8
+t1293927534
+s6616
+i"TKAlertCenter.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKBarButtonItem.h
+c000000004D1FC46E000000000000070E
+t1293927534
+s1806
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKBarButtonItem.m
+c000000004D1FC46E0000000000001B93
+t1293927534
+s7059
+i"TKBarButtonItem.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKButtonCell.h
+c000000004D1FC46E000000000000050B
+t1293927534
+s1291
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKButtonCell.m
+c000000004D1FC46E0000000000000A63
+t1293927534
+s2659
+i"TKButtonCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayEventView.h
+c000000004D1FC46E000000000000081D
+t1293927534
+s2077
+i"TapDetectingView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayEventView.m
+c000000004D1FC46E00000000000018CC
+t1293927534
+s6348
+i"TKCalendarDayEventView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayTimelineView.h
+c000000004D1FC46E0000000000000C3D
+t1293927534
+s3133
+i<UIKit/UIKit.h>
+i"TKCalendarDayEventView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayTimelineView.m
+c000000004D1FC46E0000000000004D47
+t1293927534
+s19783
+i"TKCalendarDayTimelineView.h"
+i"NSDate+TKCategory.h"
+i"UIImage+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayViewController.h
+c000000004D1FC46E00000000000005D4
+t1293927534
+s1492
+i<UIKit/UIKit.h>
+i"TKCalendarDayTimelineView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayViewController.m
+c000000004D1FC46E0000000000000C52
+t1293927534
+s3154
+i"TKCalendarDayViewController.h"
+i"TKCalendarDayEventView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.h
+c000000004D1FC46E00000000000005E0
+t1293927534
+s1504
+i<UIKit/UIKit.h>
+i"TKCalendarMonthViewController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m
+c000000004D1FC46E0000000000000C80
+t1293927534
+s3200
+i"TKCalendarMonthTableViewController.h"
+i"NSDate+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.h
+c000000004CA1E19B0000000000000767
+t1285677467
+s1895
+i<UIKit/UIKit.h>
+i"TKCalendarMonthTiles.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m
+c000000004CA1E19B0000000000002D3D
+t1285677467
+s11581
+i"TKCalendarMonthTiles.h"
+i"NSDate+TKCategory.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.h
+c000000004D2850A80000000000000935
+t1294487720
+s2357
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m
+c000000004D297DFC0000000000006E23
+t1294564860
+s28195
+i"TKCalendarMonthView.h"
+i"NSDate+TKCategory.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.h
+c000000004D1FC46E0000000000000668
+t1293927534
+s1640
+i<UIKit/UIKit.h>
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m
+c000000004D1FC46E0000000000000922
+t1293927534
+s2338
+i"TKCalendarMonthViewController.h"
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCoverflowCoverView.h
+c000000004D1FC46E0000000000000591
+t1293927534
+s1425
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCoverflowCoverView.m
+c000000004D1FC46E0000000000000D58
+t1293927534
+s3416
+i"TKCoverflowCoverView.h"
+i"UIImage+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCoverflowView.h
+c000000004D1FC46E0000000000000BE3
+t1293927534
+s3043
+i<QuartzCore/QuartzCore.h>
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCoverflowView.m
+c000000004D1FC46E0000000000003078
+t1293927534
+s12408
+i"TKCoverflowView.h"
+i"TKCoverflowCoverView.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKEmptyView.h
+c000000004D1FC46E0000000000000914
+t1293927534
+s2324
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKEmptyView.m
+c000000004D1FC46E0000000000001CC0
+t1293927534
+s7360
+i"TKEmptyView.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.h
+c000000004D1FC46E0000000000000544
+t1293927534
+s1348
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m
+c000000004D1FC46E000000000000055C
+t1293927534
+s1372
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGraphController.h
+c000000004D1FC46E000000000000057C
+t1293927534
+s1404
+i"TKGraphView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGraphController.m
+c000000004D1FC46E0000000000000CBE
+t1293927534
+s3262
+i"TKGraphController.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGraphView.h
+c000000004D1FC46E0000000000000969
+t1293927534
+s2409
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGraphView.m
+c000000004D1FC46E000000000000409E
+t1293927534
+s16542
+i"TKGraphView.h"
+i"UIView+TKCategory.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKImageCenter.h
+c000000004D1FC46E0000000000000624
+t1293927534
+s1572
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKImageCenter.m
+c000000004D1FC46E0000000000000EFD
+t1293927534
+s3837
+i"TKImageCenter.h"
+i"NSArray+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKIndicatorCell.h
+c000000004D1FC46E0000000000000578
+t1293927534
+s1400
+i"ABTableViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKIndicatorCell.m
+c000000004D1FC46E0000000000001104
+t1293927534
+s4356
+i"TKIndicatorCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelCell.h
+c000000004D1FC46E000000000000050A
+t1293927534
+s1290
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelCell.m
+c000000004D1FC46E0000000000000B07
+t1293927534
+s2823
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelFieldCell.h
+c000000004D1FC46E0000000000000527
+t1293927534
+s1319
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelFieldCell.m
+c000000004D1FC46E0000000000000962
+t1293927534
+s2402
+i"TKLabelFieldCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelSwitchCell.h
+c000000004D1FC46E000000000000052C
+t1293927534
+s1324
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelSwitchCell.m
+c000000004D1FC46E0000000000000816
+t1293927534
+s2070
+i"TKLabelSwitchCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelTextFieldCell.h
+c000000004D1FC46E000000000000054B
+t1293927534
+s1355
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelTextFieldCell.m
+c000000004D1FC46E0000000000000CF9
+t1293927534
+s3321
+i"TKLabelTextFieldCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelTextViewCell.h
+c000000004D1FC46E0000000000000535
+t1293927534
+s1333
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelTextViewCell.m
+c000000004D1FC46E0000000000000A09
+t1293927534
+s2569
+i"TKLabelTextViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLoadingView.h
+c000000004D1FC46E000000000000066C
+t1293927534
+s1644
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLoadingView.m
+c000000004D1FC46E0000000000001554
+t1293927534
+s5460
+i"TKLoadingView.h"
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressAlertView.h
+c000000004D1FC46E0000000000000607
+t1293927534
+s1543
+i<UIKit/UIKit.h>
+i"TKProgressBarView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressAlertView.m
+c000000004D1FC46E0000000000000A84
+t1293927534
+s2692
+i"TKProgressAlertView.h"
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressBarView.h
+c000000004D1FC46E00000000000005FB
+t1293927534
+s1531
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressBarView.m
+c000000004D1FC46E0000000000000EF3
+t1293927534
+s3827
+i"TKProgressBarView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressCircleView.h
+c000000004D1FC46E00000000000001E7
+t1293927534
+s487
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressCircleView.m
+c000000004D1FC46E0000000000000B7E
+t1293927534
+s2942
+i"TKProgressCircleView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKSwitchCell.h
+c000000004D1FC46E0000000000000566
+t1293927534
+s1382
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKSwitchCell.m
+c000000004D1FC46E0000000000000A09
+t1293927534
+s2569
+i"TKSwitchCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKTableViewController.h
+c000000004D1FC46E000000000000079F
+t1293927534
+s1951
+i<UIKit/UIKit.h>
+i"TKViewController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKTableViewController.m
+c000000004D1FC46E00000000000011E2
+t1293927534
+s4578
+i"TKTableViewController.h"
+i"TKEmptyView.h"
+i"UIScrollview+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKTextViewCell.h
+c000000004D1FC46E0000000000000517
+t1293927534
+s1303
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKTextViewCell.m
+c000000004D1FC46E000000000000093F
+t1293927534
+s2367
+i"TKTextViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKViewController.h
+c000000004D1FC46E0000000000000567
+t1293927534
+s1383
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKViewController.m
+c000000004D1FC46E0000000000000582
+t1293927534
+s1410
+i"TKViewController.h"
+i"TKBarButtonItem.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKWindow.h
+c000000004D1FC46E000000000000056A
+t1293927534
+s1386
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKWindow.m
+c000000004D1FC46E00000000000006D6
+t1293927534
+s1750
+i"TKWindow.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TapDetectingView.h
+c000000004D1FC46E0000000000000D88
+t1293927534
+s3464
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TapDetectingView.m
+c000000004D1FC46E0000000000001B9F
+t1293927534
+s7071
+i"TapDetectingView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TapkuLibrary.bundle
+c000000004D1FC46E0000000000000066
+t1293927534
+s102
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.h
+c000000004D1FC46E000000000000062A
+t1293927534
+s1578
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m
+c000000004D1FC46E0000000000000E31
+t1293927534
+s3633
+i"UIImage+TKCategory.h"
+i"UIView+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImageView+TKCategory.h
+c000000004D1FC46E000000000000051B
+t1293927534
+s1307
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImageView+TKCategory.m
+c000000004D1FC46E0000000000000588
+t1293927534
+s1416
+i"UIImageView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UINavigationBar+TKCategory.h
+c000000004D1FC46E0000000000000557
+t1293927534
+s1367
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<TapkuLibrary/TapkuLibrary.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UINavigationBar+TKCategory.m
+c000000004D1FC46E00000000000008EB
+t1293927534
+s2283
+i"UINavigationBar+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UINavigationController+TKCategory.h
+c000000004D1FC46E0000000000000562
+t1293927534
+s1378
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UINavigationController+TKCategory.m
+c000000004D1FC46E000000000000082E
+t1293927534
+s2094
+i"UINavigationController+TKCategory.h"
+i"TKViewController.h"
+i"TKBarButtonItem.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIScrollview+TKCategory.h
+c000000004D1FC46E00000000000004FD
+t1293927534
+s1277
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIScrollview+TKCategory.m
+c000000004D1FC46E000000000000053A
+t1293927534
+s1338
+i"UIScrollview+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIToolbar+TKCategory.h
+c000000004D1FC46E000000000000052A
+t1293927534
+s1322
+i<UIKit/UIKit.h>
+i<TapkuLibrary/TapkuLibrary.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIToolbar+TKCategory.m
+c000000004D1FC46E0000000000000764
+t1293927534
+s1892
+i"UIToolbar+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.h
+c000000004D1FC46E0000000000000727
+t1293927534
+s1831
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m
+c000000004D1FC46E00000000000014BB
+t1293927534
+s5307
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/MainWindow.xib
+c000000004D284C9C000000000000213A
+t1294486684
+s8506
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSArray+TKCategory.h
+c000000004D1FC46E000000000000050F
+t1293927534
+s1295
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSArray+TKCategory.m
+c000000004D1FC46E0000000000000571
+t1293927534
+s1393
+i"NSArray+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSDate+Helper.h
+c000000004BF1B7F70000000000000A38
+t1274132471
+s2616
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSDate+Helper.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSDate+TKCategory.h
+c000000004D1FC46E00000000000008F4
+t1293927534
+s2292
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSDate+TKCategory.m
+c000000004D1FC46E0000000000002BDA
+t1293927534
+s11226
+i"NSDate+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSString+TKCategory.h
+c000000004D1FC46E000000000000054A
+t1293927534
+s1354
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSString+TKCategory.m
+c000000004D1FC46E0000000000001217
+t1293927534
+s4631
+i"NSString+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKAlertCenter.h
+c000000004D1FC46E000000000000060B
+t1293927534
+s1547
+i<Foundation/Foundation.h>
+i<TapkuLibrary/TapkuLibrary.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKAlertCenter.m
+c000000004D1FC46E00000000000019D8
+t1293927534
+s6616
+i"TKAlertCenter.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKBarButtonItem.h
+c000000004D1FC46E000000000000070E
+t1293927534
+s1806
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKBarButtonItem.m
+c000000004D1FC46E0000000000001B93
+t1293927534
+s7059
+i"TKBarButtonItem.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKButtonCell.h
+c000000004D1FC46E000000000000050B
+t1293927534
+s1291
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKButtonCell.m
+c000000004D1FC46E0000000000000A63
+t1293927534
+s2659
+i"TKButtonCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayEventView.h
+c000000004D1FC46E000000000000081D
+t1293927534
+s2077
+i"TapDetectingView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayEventView.m
+c000000004D1FC46E00000000000018CC
+t1293927534
+s6348
+i"TKCalendarDayEventView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayTimelineView.h
+c000000004D1FC46E0000000000000C3D
+t1293927534
+s3133
+i<UIKit/UIKit.h>
+i"TKCalendarDayEventView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayTimelineView.m
+c000000004D1FC46E0000000000004D47
+t1293927534
+s19783
+i"TKCalendarDayTimelineView.h"
+i"NSDate+TKCategory.h"
+i"UIImage+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayViewController.h
+c000000004D1FC46E00000000000005D4
+t1293927534
+s1492
+i<UIKit/UIKit.h>
+i"TKCalendarDayTimelineView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayViewController.m
+c000000004D1FC46E0000000000000C52
+t1293927534
+s3154
+i"TKCalendarDayViewController.h"
+i"TKCalendarDayEventView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthTableViewController.h
+c000000004D1FC46E00000000000005E0
+t1293927534
+s1504
+i<UIKit/UIKit.h>
+i"TKCalendarMonthViewController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthTableViewController.m
+c000000004D1FC46E0000000000000C80
+t1293927534
+s3200
+i"TKCalendarMonthTableViewController.h"
+i"NSDate+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthView.h
+c000000004D1FC46E0000000000000935
+t1293927534
+s2357
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthView.m
+c000000004D1FC46E0000000000006E25
+t1293927534
+s28197
+i"TKCalendarMonthView.h"
+i"NSDate+TKCategory.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthViewController.h
+c000000004D1FC46E0000000000000668
+t1293927534
+s1640
+i<UIKit/UIKit.h>
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthViewController.m
+c000000004D1FC46E0000000000000922
+t1293927534
+s2338
+i"TKCalendarMonthViewController.h"
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCoverflowCoverView.h
+c000000004D1FC46E0000000000000591
+t1293927534
+s1425
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCoverflowCoverView.m
+c000000004D1FC46E0000000000000D58
+t1293927534
+s3416
+i"TKCoverflowCoverView.h"
+i"UIImage+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCoverflowView.h
+c000000004D1FC46E0000000000000BE3
+t1293927534
+s3043
+i<QuartzCore/QuartzCore.h>
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCoverflowView.m
+c000000004D1FC46E0000000000003078
+t1293927534
+s12408
+i"TKCoverflowView.h"
+i"TKCoverflowCoverView.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKEmptyView.h
+c000000004D1FC46E0000000000000914
+t1293927534
+s2324
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKEmptyView.m
+c000000004D1FC46E0000000000001CC0
+t1293927534
+s7360
+i"TKEmptyView.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGlobal.h
+c000000004D1FC46E0000000000000544
+t1293927534
+s1348
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGlobal.m
+c000000004D1FC46E000000000000055C
+t1293927534
+s1372
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGraphController.h
+c000000004D1FC46E000000000000057C
+t1293927534
+s1404
+i"TKGraphView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGraphController.m
+c000000004D1FC46E0000000000000CBE
+t1293927534
+s3262
+i"TKGraphController.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGraphView.h
+c000000004D1FC46E0000000000000969
+t1293927534
+s2409
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGraphView.m
+c000000004D1FC46E000000000000409E
+t1293927534
+s16542
+i"TKGraphView.h"
+i"UIView+TKCategory.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKImageCenter.h
+c000000004D1FC46E0000000000000624
+t1293927534
+s1572
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKImageCenter.m
+c000000004D1FC46E0000000000000EFD
+t1293927534
+s3837
+i"TKImageCenter.h"
+i"NSArray+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKIndicatorCell.h
+c000000004D1FC46E0000000000000578
+t1293927534
+s1400
+i"ABTableViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKIndicatorCell.m
+c000000004D1FC46E0000000000001104
+t1293927534
+s4356
+i"TKIndicatorCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelCell.h
+c000000004D1FC46E000000000000050A
+t1293927534
+s1290
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelCell.m
+c000000004D1FC46E0000000000000B07
+t1293927534
+s2823
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelFieldCell.h
+c000000004D1FC46E0000000000000527
+t1293927534
+s1319
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelFieldCell.m
+c000000004D1FC46E0000000000000962
+t1293927534
+s2402
+i"TKLabelFieldCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelSwitchCell.h
+c000000004D1FC46E000000000000052C
+t1293927534
+s1324
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelSwitchCell.m
+c000000004D1FC46E0000000000000816
+t1293927534
+s2070
+i"TKLabelSwitchCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelTextFieldCell.h
+c000000004D1FC46E000000000000054B
+t1293927534
+s1355
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelTextFieldCell.m
+c000000004D1FC46E0000000000000CF9
+t1293927534
+s3321
+i"TKLabelTextFieldCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelTextViewCell.h
+c000000004D1FC46E0000000000000535
+t1293927534
+s1333
+i"TKLabelCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelTextViewCell.m
+c000000004D1FC46E0000000000000A09
+t1293927534
+s2569
+i"TKLabelTextViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLoadingView.h
+c000000004D1FC46E000000000000066C
+t1293927534
+s1644
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLoadingView.m
+c000000004D1FC46E0000000000001554
+t1293927534
+s5460
+i"TKLoadingView.h"
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressAlertView.h
+c000000004D1FC46E0000000000000607
+t1293927534
+s1543
+i<UIKit/UIKit.h>
+i"TKProgressBarView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressAlertView.m
+c000000004D1FC46E0000000000000A84
+t1293927534
+s2692
+i"TKProgressAlertView.h"
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressBarView.h
+c000000004D1FC46E00000000000005FB
+t1293927534
+s1531
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressBarView.m
+c000000004D1FC46E0000000000000EF3
+t1293927534
+s3827
+i"TKProgressBarView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressCircleView.h
+c000000004D1FC46E00000000000001E7
+t1293927534
+s487
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressCircleView.m
+c000000004D1FC46E0000000000000B7E
+t1293927534
+s2942
+i"TKProgressCircleView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKSwitchCell.h
+c000000004D1FC46E0000000000000566
+t1293927534
+s1382
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKSwitchCell.m
+c000000004D1FC46E0000000000000A09
+t1293927534
+s2569
+i"TKSwitchCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKTableViewController.h
+c000000004D1FC46E000000000000079F
+t1293927534
+s1951
+i<UIKit/UIKit.h>
+i"TKViewController.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKTableViewController.m
+c000000004D1FC46E00000000000011E2
+t1293927534
+s4578
+i"TKTableViewController.h"
+i"TKEmptyView.h"
+i"UIScrollview+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKTextViewCell.h
+c000000004D1FC46E0000000000000517
+t1293927534
+s1303
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKTextViewCell.m
+c000000004D1FC46E000000000000093F
+t1293927534
+s2367
+i"TKTextViewCell.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKViewController.h
+c000000004D1FC46E0000000000000567
+t1293927534
+s1383
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKViewController.m
+c000000004D1FC46E0000000000000582
+t1293927534
+s1410
+i"TKViewController.h"
+i"TKBarButtonItem.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKWindow.h
+c000000004D1FC46E000000000000056A
+t1293927534
+s1386
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKWindow.m
+c000000004D1FC46E00000000000006D6
+t1293927534
+s1750
+i"TKWindow.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapDetectingView.h
+c000000004D1FC46E0000000000000D88
+t1293927534
+s3464
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapDetectingView.m
+c000000004D1FC46E0000000000001B9F
+t1293927534
+s7071
+i"TapDetectingView.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch
+c000000004D285E6900000000000000E6
+t1294491241
+s230
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"NSDate+Helper.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuLibrary.bundle
+c000000004D1FC46E0000000000000066
+t1293927534
+s102
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIImage+TKCategory.h
+c000000004D1FC46E000000000000062A
+t1293927534
+s1578
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIImage+TKCategory.m
+c000000004D1FC46E0000000000000E31
+t1293927534
+s3633
+i"UIImage+TKCategory.h"
+i"UIView+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIImageView+TKCategory.h
+c000000004D1FC46E000000000000051B
+t1293927534
+s1307
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIImageView+TKCategory.m
+c000000004D1FC46E0000000000000588
+t1293927534
+s1416
+i"UIImageView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UINavigationBar+TKCategory.h
+c000000004D1FC46E0000000000000557
+t1293927534
+s1367
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<TapkuLibrary/TapkuLibrary.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UINavigationBar+TKCategory.m
+c000000004D1FC46E00000000000008EB
+t1293927534
+s2283
+i"UINavigationBar+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UINavigationController+TKCategory.h
+c000000004D1FC46E0000000000000562
+t1293927534
+s1378
+i<Foundation/Foundation.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UINavigationController+TKCategory.m
+c000000004D1FC46E000000000000082E
+t1293927534
+s2094
+i"UINavigationController+TKCategory.h"
+i"TKViewController.h"
+i"TKBarButtonItem.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIScrollview+TKCategory.h
+c000000004D1FC46E00000000000004FD
+t1293927534
+s1277
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIScrollview+TKCategory.m
+c000000004D1FC46E000000000000053A
+t1293927534
+s1338
+i"UIScrollview+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIToolbar+TKCategory.h
+c000000004D1FC46E000000000000052A
+t1293927534
+s1322
+i<UIKit/UIKit.h>
+i<TapkuLibrary/TapkuLibrary.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIToolbar+TKCategory.m
+c000000004D1FC46E0000000000000764
+t1293927534
+s1892
+i"UIToolbar+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIView+TKCategory.h
+c000000004D1FC46E0000000000000727
+t1293927534
+s1831
+i<UIKit/UIKit.h>
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIView+TKCategory.m
+c000000004D1FC46E00000000000014BB
+t1293927534
+s5307
+i"UIView+TKCategory.h"
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+t1294584640
+s238
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM
+t1294584640
+s102
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist
+t1294486689
+s637
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/MainWindow.nib
+t1294486689
+s994
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/PkgInfo
+t1294486689
+s8
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+t1294584640
+s112652
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle
+t1294488168
+s102
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/ABTableViewCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o
+t1294584639
+s60804
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSArray+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+Helper.o
+t1294493861
+s25528
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o
+t1294493861
+s35964
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSString+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKAlertCenter.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKBarButtonItem.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKButtonCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayEventView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayTimelineView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayViewController.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o
+t1294493860
+s54028
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTiles.o
+t1294493861
+s75472
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o
+t1294564926
+s126028
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o
+t1294493861
+s47124
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCoverflowCoverView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCoverflowView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKEmptyView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o
+t1294493861
+s7288
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGraphController.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGraphView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKImageCenter.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKIndicatorCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelFieldCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelSwitchCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelTextFieldCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelTextViewCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLoadingView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressAlertView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressBarView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressCircleView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKSwitchCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKTableViewController.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKTextViewCell.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKViewController.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKWindow.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapDetectingView.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemo.LinkFileList
+c000000004D29CB3F000000000000071E
+t1294584639
+s1822
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o
+t1294528329
+s52864
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o
+t1294493861
+s44568
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImageView+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UINavigationBar+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UINavigationController+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIScrollview+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIToolbar+TKCategory.o
+t2
+s0
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o
+t1294493861
+s46800
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o
+t1294493860
+s6396
+
+N/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/main.m
+c000000004D284CDC0000000000000177
+t1294486748
+s375
+i<UIKit/UIKit.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.h
+c000000004D2856D600000000000001C9
+t1294489302
+s457
+i<UIKit/UIKit.h>
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m
+c000000004D29CAE80000000000001E15
+t1294584552
+s7701
+i"CalendarController.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.h
+c000000004D28EF4800000000000001F7
+t1294528328
+s503
+i<UIKit/UIKit.h>
+i"CalendarController.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m
+c000000004D28EF270000000000000ADB
+t1294528295
+s2779
+i"TapkuCalendarDemoAppDelegate.h"
+i"CalendarController.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.h
+c000000004D1FC46E00000000000008F4
+t1293927534
+s2292
+i<Foundation/Foundation.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m
+c000000004D2851200000000000002BDA
+t1294487840
+s11226
+i"NSDate+TKCategory.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.h
+c000000004D1FC46E00000000000005E0
+t1293927534
+s1504
+i<UIKit/UIKit.h>
+i"TKCalendarMonthViewController.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m
+c000000004D1FC46E0000000000000C80
+t1293927534
+s3200
+i"TKCalendarMonthTableViewController.h"
+i"NSDate+TKCategory.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.h
+c000000004D2850A80000000000000935
+t1294487720
+s2357
+i<UIKit/UIKit.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m
+c000000004D297DFC0000000000006E23
+t1294564860
+s28195
+i"TKCalendarMonthView.h"
+i"NSDate+TKCategory.h"
+i"TKGlobal.h"
+i"UIImage+TKCategory.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.h
+c000000004D1FC46E0000000000000668
+t1293927534
+s1640
+i<UIKit/UIKit.h>
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m
+c000000004D1FC46E0000000000000922
+t1293927534
+s2338
+i"TKCalendarMonthViewController.h"
+i"TKCalendarMonthView.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.h
+c000000004D1FC46E0000000000000544
+t1293927534
+s1348
+i<UIKit/UIKit.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m
+c000000004D1FC46E000000000000055C
+t1293927534
+s1372
+i"TKGlobal.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TapkuLibrary.bundle
+c000000004D1FC46E0000000000000066
+t1293927534
+s102
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.h
+c000000004D1FC46E000000000000062A
+t1293927534
+s1578
+i<UIKit/UIKit.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m
+c000000004D1FC46E0000000000000E31
+t1293927534
+s3633
+i"UIImage+TKCategory.h"
+i"UIView+TKCategory.h"
+i"TKGlobal.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.h
+c000000004D1FC46E0000000000000727
+t1293927534
+s1831
+i<UIKit/UIKit.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m
+c000000004D1FC46E00000000000014BB
+t1293927534
+s5307
+i"UIView+TKCategory.h"
+
+N/Users/ben/Downloads/TapkuCalendarDemo/MainWindow.xib
+c000000004D284C9C000000000000213A
+t1294486684
+s8506
+
+N/Users/ben/Downloads/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch
+c000000004D37791C00000000000000CB
+t1295481116
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+t1295481094
+s238
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM
+t1295481094
+s102
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist
+t1294486689
+s637
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/MainWindow.nib
+t1294486689
+s994
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/PkgInfo
+t1294486689
+s8
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+t1295481094
+s112156
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle
+t1294488168
+s102
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o
+t1295481094
+s60756
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o
+t1295481094
+s35940
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o
+t1295481094
+s54004
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o
+t1295481094
+s126004
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o
+t1295481094
+s47100
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o
+t1295481094
+s7256
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemo.LinkFileList
+c000000004D3778FA0000000000000624
+t1295481082
+s1572
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o
+t1295481094
+s52820
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o
+t1295481094
+s44536
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o
+t1295481094
+s46776
+
+N/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o
+t1295481094
+s6364
+
+N/Users/ben/Downloads/TapkuCalendarDemo/main.m
+c000000004D284CDC0000000000000177
+t1294486748
+s375
+i<UIKit/UIKit.h>
+
+N/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch.gch
+t1295481093
+s15461584
+
+N/var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch.gch
+t1294493860
+s15478000
+
+N/var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-aylislruinguuqctbscrccvmahai/TapkuCalendarDemo_Prefix.pch.gch
+t1294491244
+s15478000
+
+NTapkuCalendarDemo-Info.plist
+c000000004D284C9C000000000000038D
+t1294486684
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317173893#317173893#0(0"0(0#1#0"8620054496#0"0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/ABTableViewCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/ABTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/ABTableViewCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/ABTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316277439.747789
+e316277439.999174
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.m316277439#316277440#0(0"0(0#0#92"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.m8607668256#2469"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/CalendarController.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o /Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.016244
+e317173894.143112
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m317173894#317173894#0(0"0(0#0#67"/Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m8621946912#2210"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Classes/CalendarController.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/CalendarController.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSArray+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSArray+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSArray+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSArray+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+Helper.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/Libraries/Categories/NSDate+Helper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+Helper.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186661.561414
+e316186661.777213
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+Helper.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.m316186661#316186661#0(0"0(0#0#100"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.m8627070944#2472"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+Helper.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+Helper.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSDate+Helper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/NSDate+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186660.799244
+e316186661.050821
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m: In function '-[NSDate(TKCategory) weekday]':
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m:218: warning: conflicting types for '-(int)weekday'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.h:39: warning: previous declaration of '-(NSUInteger)weekday'
+lSLF07#2@114"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m316186660#316186661#0(473"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m: In function '-[NSDate(TKCategory) weekday]':/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m:218: warning: conflicting types for '-(int)weekday'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.h:39: warning: previous declaration of '-(NSUInteger)weekday'2(22@37"Conflicting types for '-(int)weekday'316186660#153#159#0(6@106"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m316180640#218#0#218#0#25"conflicting types for '*'0(22@46"Previous declaration of '-(NSUInteger)weekday'316186660#312#161#0(6@100"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/Categories/NSDate+Helper.h295825271#39#0#39#0#0"0(0#0#106"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m8638361632#2482"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSDate+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.011582
+e317173894.129107
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m317173894#317173894#0(0"0(0#0#81"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m8623082080#2223"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/NSDate+TKCategory.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSDate+TKCategory.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSString+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/NSString+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/NSString+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/NSString+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKAlertCenter.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKAlertCenter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKAlertCenter.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKAlertCenter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKBarButtonItem.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKBarButtonItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKBarButtonItem.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKBarButtonItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKButtonCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKButtonCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKButtonCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKButtonCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayEventView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayEventView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayEventView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayEventView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayTimelineView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayTimelineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayTimelineView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayTimelineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarDayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarDayViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarDayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186660.850788
+e316186660.966939
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@131"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m316186660#316186660#0(0"0(0#0#123"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m8637168032#2516"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.012276
+e317173894.117572
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m317173894#317173894#0(0"0(0#0#98"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m8622883904#2257"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTableViewController.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTiles.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186661.573476
+e316186661.831019
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTiles.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '+[TKCalendarMonthTiles rangeOfDatesInMonthGrid:startOnSunday:]':
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: 'NSDate' may not respond to '-daysInMonth'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: (Messages without a matching method signature
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: will be assumed to return 'id' and accept
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: '...' as arguments.)
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: initialization makes integer from pointer without a cast
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:81: warning: 'NSDate' may not respond to '-daysInMonth'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:81: warning: initialization makes integer from pointer without a cast
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles initWithMonth:marks:startDayOnSunday:]':
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:109: warning: 'NSDate' may not respond to '-daysInMonth'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:109: warning: assignment makes integer from pointer without a cast
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:125: warning: 'NSDate' may not respond to '-daysInMonth'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:125: warning: initialization makes integer from pointer without a cast
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles drawRect:]':
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:176: warning: 'UIImage' may not respond to '+imageFromPath:'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:185: warning: 'UIImage' may not respond to '+imageFromPath:'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles selectDay:]':
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:243: warning: 'UIImage' may not respond to '+imageFromPath:'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:249: warning: 'UIImage' may not respond to '+imageFromPath:'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles reactToTouch:down:]':
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:312: warning: 'UIImage' may not respond to '+imageFromPath:'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:317: warning: 'UIImage' may not respond to '+imageFromPath:'
+o/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:322: warning: 'UIImage' may not respond to '+imageFromPath:'
+lSLF07#2@117"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m316186661#316186661#0(3926"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '+[TKCalendarMonthTiles rangeOfDatesInMonthGrid:startOnSunday:]':/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: 'NSDate' may not respond to '-daysInMonth'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: (Messages without a matching method signature/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: will be assumed to return 'id' and accept/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: '...' as arguments.)/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:67: warning: initialization makes integer from pointer without a cast/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:81: warning: 'NSDate' may not respond to '-daysInMonth'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:81: warning: initialization makes integer from pointer without a cast/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles initWithMonth:marks:startDayOnSunday:]':/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:109: warning: 'NSDate' may not respond to '-daysInMonth'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:109: warning: assignment makes integer from pointer without a cast/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:125: warning: 'NSDate' may not respond to '-daysInMonth'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:125: warning: initialization makes integer from pointer without a cast/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles drawRect:]':/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:176: warning: 'UIImage' may not respond to '+imageFromPath:'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:185: warning: 'UIImage' may not respond to '+imageFromPath:'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles selectDay:]':/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:243: warning: 'UIImage' may not respond to '+imageFromPath:'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:249: warning: 'UIImage' may not respond to '+imageFromPath:'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m: In function '-[TKCalendarMonthTiles reactToTouch:down:]':/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:312: warning: 'UIImage' may not respond to '+imageFromPath:'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:317: warning: 'UIImage' may not respond to '+imageFromPath:'/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m:322: warning: 'UIImage' may not respond to '+imageFromPath:'16(22@42"'NSDate' may not respond to '-daysInMonth'316186661#189#166#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#67#0#67#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316186661#355#169#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#67#0#67#0#0"0(22@56"Initialization makes integer from pointer without a cast316186661#833#180#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#67#0#67#0#0"0(22@42"'NSDate' may not respond to '-daysInMonth'316186661#1013#166#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#81#0#81#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast316186661#1179#180#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#81#0#81#0#0"0(22@42"'NSDate' may not respond to '-daysInMonth'316186661#1547#167#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#109#0#109#0#26"'*' may not respond to '*'0(22@52"Assignment makes integer from pointer without a cast316186661#1714#177#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#109#0#109#0#0"0(22@42"'NSDate' may not respond to '-daysInMonth'316186661#1891#167#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#125#0#125#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast316186661#2058#181#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#125#0#125#0#0"0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#2399#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#176#0#176#0#26"'*' may not respond to '*'0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#2570#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#185#0#185#0#26"'*' may not respond to '*'0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#2902#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#243#0#243#0#26"'*' may not respond to '*'0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#3073#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#249#0#249#0#26"'*' may not respond to '*'0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#3413#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#312#0#312#0#26"'*' may not respond to '*'0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#3584#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#317#0#317#0#26"'*' may not respond to '*'0(22@46"'UIImage' may not respond to '+imageFromPath:'316186661#3755#171#0(6@109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m307370267#322#0#322#0#26"'*' may not respond to '*'0(0#0#109"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m8626246688#2488"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthTiles.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthTiles.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316257725.912186
+e316257726.263285
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m316257725#316257726#0(0"0(0#0#108"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m8651211200#2486"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.012987
+e317173894.246747
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m317173894#317173894#0(0"0(0#0#83"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m8622682176#2227"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthView.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthView.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKCalendarMonthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186661.050916
+e316186661.180728
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m316186661#316186661#0(0"0(0#0#118"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m8627552224#2506"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCalendarMonthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.013922
+e317173894.111068
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m317173894#317173894#0(0"0(0#0#93"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m8622509440#2247"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCalendarMonthViewController.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCalendarMonthViewController.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCoverflowCoverView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCoverflowCoverView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCoverflowCoverView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCoverflowCoverView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCoverflowView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKCoverflowView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKCoverflowView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKCoverflowView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKEmptyView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKEmptyView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKEmptyView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKEmptyView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/TKGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186661.180915
+e316186661.229464
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m316186661#316186661#0(0"0(0#0#97"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m8652208704#2464"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.015001
+e317173894.078715
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m317173894#317173894#0(0"0(0#0#72"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m8622197280#2205"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGlobal.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGlobal.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGraphController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGraphController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGraphController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGraphController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGraphView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKGraphView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKGraphView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKGraphView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKImageCenter.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKImageCenter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKImageCenter.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKImageCenter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKIndicatorCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKIndicatorCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKIndicatorCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKIndicatorCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelFieldCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelFieldCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelFieldCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelFieldCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelSwitchCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelSwitchCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelSwitchCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelSwitchCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelTextFieldCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelTextFieldCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelTextFieldCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelTextFieldCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelTextViewCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLabelTextViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLabelTextViewCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLabelTextViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLoadingView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKLoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKLoadingView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKLoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressAlertView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressAlertView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressAlertView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressAlertView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressBarView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressBarView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressBarView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressBarView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressCircleView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKProgressCircleView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKProgressCircleView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKProgressCircleView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKSwitchCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKSwitchCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKSwitchCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKSwitchCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKTableViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKTableViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKTextViewCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKTextViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKTextViewCell.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKTextViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKViewController.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKWindow.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TKWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TKWindow.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TKWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapDetectingView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TapDetectingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapDetectingView.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapDetectingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316221129.564027
+e316221129.639711
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m316221129#316221129#0(0"0(0#0#102"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m8631760192#2489"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o /Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.010884
+e317173894.102738
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m317173894#317173894#0(0"0(0#0#77"/Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m8623210880#2230"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Classes/TapkuCalendarDemoAppDelegate.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemoAppDelegate.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/UIImage+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186661.229572
+e316186661.388594
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m316186661#316186661#0(0"0(0#0#107"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m8639580064#2484"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIImage+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.063698
+e317173894.141360
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m317173894#317173894#0(0"0(0#0#82"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m8621563904#2225"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImage+TKCategory.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImage+TKCategory.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImageView+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIImageView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIImageView+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIImageView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UINavigationBar+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UINavigationBar+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UINavigationBar+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UINavigationBar+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UINavigationController+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UINavigationController+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UINavigationController+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UINavigationController+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIScrollview+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIScrollview+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIScrollview+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIScrollview+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIToolbar+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIToolbar+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIToolbar+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIToolbar+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/Libraries/TapkuLibrary/UIView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186661.388700
+e316186661.561315
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m316186661#316186661#0(0"0(0#0#106"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m8633438848#2482"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/UIView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.078846
+e317173894.163219
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o
+x/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m317173894#317173894#0(0"0(0#0#81"/Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m8621146176#2223"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/Libraries/TapkuLibrary/UIView+TKCategory.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/UIView+TKCategory.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186660.744421
+e316186660.799143
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/main.m316186660#316186660#0(0"0(0#0#70"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/main.m8651264448#2433"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/main.m -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o /Users/ben/Downloads/TapkuCalendarDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173894.010100
+e317173894.063549
+r1
+xCompileC
+xbuild/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o
+x/Users/ben/Downloads/TapkuCalendarDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/ben/Downloads/TapkuCalendarDemo/main.m317173894#317173894#0(0"0(0#0#45"/Users/ben/Downloads/TapkuCalendarDemo/main.m8623409952#2174"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -include /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch -c /Users/ben/Downloads/TapkuCalendarDemo/main.m -o /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/MainWindow.xib
+s316179489.113415
+e316179489.591495
+r1
+xCompileXIB
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316179489#316179489#0(0"0(0#0#78"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/MainWindow.xib8640524288#699"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/MainWindow.nib /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/MainWindow.xib --sdk /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/ben/Downloads/TapkuCalendarDemo/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle Libraries/TapkuLibrary/Libraries/TapkuLibrary/TapkuLibrary.bundle
+r0
+
+CCpResource build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle Libraries/TapkuLibrary/TapkuLibrary.bundle
+s316180968.021882
+e316180968.085584
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle
+xLibraries/TapkuLibrary/TapkuLibrary.bundle
+lSLF07#2@47"Copy Libraries/TapkuLibrary/TapkuLibrary.bundle316180968#316180968#0(0"0(0#0#106"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TapkuLibrary.bundle34058961814618224#618"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/Libraries/TapkuLibrary/TapkuLibrary.bundle /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app0#
+
+CCpResource build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuLibrary.bundle TapkuLibrary.bundle
+r0
+
+CGenerateDSYMFile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+s316277440.045818
+e316277440.076247
+r1
+xGenerateDSYMFile
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo316277440#316277440#0(0"0(0#0#131"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo8653699296#521"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/usr/bin/dsymutil /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM0#
+
+CGenerateDSYMFile /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+s317173894.271765
+e317173894.291603
+r1
+xGenerateDSYMFile
+x/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM
+x/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo317173894#317173894#0(0"0(0#0#106"/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo8622264832#458"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/usr/bin/dsymutil /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo -o /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app.dSYM0#
+
+CLd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo normal i386
+s316277439.999254
+e316277440.045724
+r1
+xLd
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+xnormal
+xi386
+lSLF07#2@136"Link /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo316277439#316277440#0(0"0(0#0#0"8657507040#1119"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -filelist /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo0#
+
+CLd /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo normal i386
+s317173894.246820
+e317173894.271700
+r1
+xLd
+x/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo
+xnormal
+xi386
+lSLF07#2@111"Link /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo317173894#317173894#0(0"0(0#0#0"8623819616#1010"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -filelist /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/Objects-normal/i386/TapkuCalendarDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/TapkuCalendarDemo0#
+
+CProcessInfoPlistFile /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist TapkuCalendarDemo-Info.plist
+s316179489.105839
+e316179489.113333
+r1
+xProcessInfoPlistFile
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist
+xTapkuCalendarDemo-Info.plist
+lSLF07#2@36"Process TapkuCalendarDemo-Info.plist316179489#316179489#0(0"0(0#0#92"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo-Info.plist30399800003068008#606"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TapkuCalendarDemo-Info.plist -genpkginfo /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app/Info.plist TapkuCalendarDemo-Info.plist
+r0
+
+CProcessPCH /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch.gch TapkuCalendarDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317173893.465134
+e317173894.010017
+r1
+xProcessPCH
+x/var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch.gch
+xTapkuCalendarDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile TapkuCalendarDemo_Prefix.pch317173893#317173894#0(0"0(0#0#67"/Users/ben/Downloads/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch8620329312#2056"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Downloads/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -c /Users/ben/Downloads/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch -o /var/folders/Hc/HcJtbI0EGnS0-OKnzMJLYU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-cbexgorlcaadqfdmpjsrosidhmja/TapkuCalendarDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch.gch TapkuCalendarDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316186660.062703
+e316186660.744316
+r1
+xProcessPCH
+x/var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch.gch
+xTapkuCalendarDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile TapkuCalendarDemo_Prefix.pch316186660#316186660#0(0"0(0#0#92"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch8625963520#2290"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch -o /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-apgafqqhwkieskfvxjfanyzesrqz/TapkuCalendarDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-aylislruinguuqctbscrccvmahai/TapkuCalendarDemo_Prefix.pch.gch TapkuCalendarDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316184044.139336
+e316184044.968605
+r1
+xProcessPCH
+x/var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-aylislruinguuqctbscrccvmahai/TapkuCalendarDemo_Prefix.pch.gch
+xTapkuCalendarDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile TapkuCalendarDemo_Prefix.pch316184044#316184044#0(0"0(0#0#92"/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch8637317120#2290"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-generated-files.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-own-target-headers.hmap -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-all-target-headers.hmap -iquote /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/TapkuCalendarDemo-project-headers.hmap -F/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/include -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources/i386 -I/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/TapkuCalendarDemo.build/Debug-iphonesimulator/TapkuCalendarDemo.build/DerivedSources -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo_Prefix.pch -o /var/folders/NH/NH9c8Xk4GcydvIx--jsf1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapkuCalendarDemo_Prefix-aylislruinguuqctbscrccvmahai/TapkuCalendarDemo_Prefix.pch.gch0#
+
+CTouch /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+s316277440.076342
+e316277440.080625
+r1
+xTouch
+x/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+lSLF07#2@119"Touch /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app316277440#316277440#0(0"0(0#0#0"8653047136#360"    cd /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo    setenv PATH "/Xcode/Versions/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app0#
+
+CTouch /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+s317173894.291670
+e317173894.293684
+r1
+xTouch
+x/Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app
+lSLF07#2@94"Touch /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app317173894#317173894#0(0"0(0#0#0"8622071712#318"    cd /Users/ben/Downloads/TapkuCalendarDemo    setenv PATH "/Xcode/Versions/3.2.5-4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/Versions/3.2.5-4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ben/Downloads/TapkuCalendarDemo/build/Debug-iphonesimulator/TapkuCalendarDemo.app0#
+

@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		800F319F149C1A84007CDA06 /* DayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F319E149C1A84007CDA06 /* DayController.m */; };
+		809CD10A14A155C9007443C0 /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD10914A155C9007443C0 /* CountdownView.m */; };
+		809CD18B14A9CA18007443C0 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809CD18A14A9CA18007443C0 /* EventKit.framework */; };
+		809CD18D14A9CEEA007443C0 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809CD18C14A9CEEA007443C0 /* EventKitUI.framework */; };
+		809CD29814ACEFA3007443C0 /* TKCalendarMonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD29314ACEFA2007443C0 /* TKCalendarMonthTableViewController.m */; };
+		809CD29914ACEFA3007443C0 /* TKCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD29514ACEFA2007443C0 /* TKCalendarMonthView.m */; };
+		809CD29A14ACEFA3007443C0 /* TKCalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD29714ACEFA3007443C0 /* TKCalendarMonthViewController.m */; };
+		809CD2E414B13235007443C0 /* TapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD2DD14B13235007443C0 /* TapDetectingView.m */; };
+		809CD2E514B13235007443C0 /* TKCalendarDayEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD2DF14B13235007443C0 /* TKCalendarDayEventView.m */; };
+		809CD2E614B13235007443C0 /* TKCalendarDayTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD2E114B13235007443C0 /* TKCalendarDayTimelineView.m */; };
+		809CD2E714B13235007443C0 /* TKCalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD2E314B13235007443C0 /* TKCalendarDayViewController.m */; };
+		809CD2ED14B134CD007443C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809CD2EC14B134CD007443C0 /* QuartzCore.framework */; };
+		B50B6B3112D885F40038F6C7 /* NSDate+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B6ADD12D885F40038F6C7 /* NSDate+TKCategory.m */; };
+		B50B6B4012D885F40038F6C7 /* TKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B6AFC12D885F40038F6C7 /* TKGlobal.m */; };
+		B50B6CFD12D888D50038F6C7 /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B6CFC12D888D50038F6C7 /* CalendarController.m */; };
+		B50B72B712D9ED4E0038F6C7 /* UIImage+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B72B412D9ED4E0038F6C7 /* UIImage+TKCategory.m */; };
+		B50B72B812D9ED4E0038F6C7 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B72B612D9ED4E0038F6C7 /* UIView+TKCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TapkuCalendarDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapkuCalendarDemoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapkuCalendarDemoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TapkuCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapkuCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TapkuCalendarDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapkuCalendarDemo_Prefix.pch; sourceTree = "<group>"; };
+		800F319D149C1A84007CDA06 /* DayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayController.h; sourceTree = "<group>"; };
+		800F319E149C1A84007CDA06 /* DayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayController.m; sourceTree = "<group>"; };
+		809CD10814A155C9007443C0 /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
+		809CD10914A155C9007443C0 /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
+		809CD18A14A9CA18007443C0 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		809CD18C14A9CEEA007443C0 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		809CD29214ACEFA2007443C0 /* TKCalendarMonthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKCalendarMonthTableViewController.h; path = Libraries/TapkuLibrary/TKCalendarMonthTableViewController.h; sourceTree = "<group>"; };
+		809CD29314ACEFA2007443C0 /* TKCalendarMonthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKCalendarMonthTableViewController.m; path = Libraries/TapkuLibrary/TKCalendarMonthTableViewController.m; sourceTree = "<group>"; };
+		809CD29414ACEFA2007443C0 /* TKCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKCalendarMonthView.h; path = Libraries/TapkuLibrary/TKCalendarMonthView.h; sourceTree = "<group>"; };
+		809CD29514ACEFA2007443C0 /* TKCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKCalendarMonthView.m; path = Libraries/TapkuLibrary/TKCalendarMonthView.m; sourceTree = "<group>"; };
+		809CD29614ACEFA3007443C0 /* TKCalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKCalendarMonthViewController.h; path = Libraries/TapkuLibrary/TKCalendarMonthViewController.h; sourceTree = "<group>"; };
+		809CD29714ACEFA3007443C0 /* TKCalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKCalendarMonthViewController.m; path = Libraries/TapkuLibrary/TKCalendarMonthViewController.m; sourceTree = "<group>"; };
+		809CD2DC14B13235007443C0 /* TapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingView.h; sourceTree = "<group>"; };
+		809CD2DD14B13235007443C0 /* TapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingView.m; sourceTree = "<group>"; };
+		809CD2DE14B13235007443C0 /* TKCalendarDayEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarDayEventView.h; sourceTree = "<group>"; };
+		809CD2DF14B13235007443C0 /* TKCalendarDayEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarDayEventView.m; sourceTree = "<group>"; };
+		809CD2E014B13235007443C0 /* TKCalendarDayTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarDayTimelineView.h; sourceTree = "<group>"; };
+		809CD2E114B13235007443C0 /* TKCalendarDayTimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarDayTimelineView.m; sourceTree = "<group>"; };
+		809CD2E214B13235007443C0 /* TKCalendarDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarDayViewController.h; sourceTree = "<group>"; };
+		809CD2E314B13235007443C0 /* TKCalendarDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarDayViewController.m; sourceTree = "<group>"; };
+		809CD2EC14B134CD007443C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* TapkuCalendarDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TapkuCalendarDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B50B6ADC12D885F40038F6C7 /* NSDate+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKCategory.h"; sourceTree = "<group>"; };
+		B50B6ADD12D885F40038F6C7 /* NSDate+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKCategory.m"; sourceTree = "<group>"; };
+		B50B6AFB12D885F40038F6C7 /* TKGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
+		B50B6AFC12D885F40038F6C7 /* TKGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
+		B50B6CFB12D888D50038F6C7 /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
+		B50B6CFC12D888D50038F6C7 /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
+		B50B72B312D9ED4E0038F6C7 /* UIImage+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TKCategory.h"; sourceTree = "<group>"; };
+		B50B72B412D9ED4E0038F6C7 /* UIImage+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TKCategory.m"; sourceTree = "<group>"; };
+		B50B72B512D9ED4E0038F6C7 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		B50B72B612D9ED4E0038F6C7 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CD2ED14B134CD007443C0 /* QuartzCore.framework in Frameworks */,
+				809CD18D14A9CEEA007443C0 /* EventKitUI.framework in Frameworks */,
+				809CD18B14A9CA18007443C0 /* EventKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				809CD10814A155C9007443C0 /* CountdownView.h */,
+				809CD10914A155C9007443C0 /* CountdownView.m */,
+				1D3623240D0F684500981E51 /* TapkuCalendarDemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m */,
+				B50B6CFB12D888D50038F6C7 /* CalendarController.h */,
+				B50B6CFC12D888D50038F6C7 /* CalendarController.m */,
+				800F319D149C1A84007CDA06 /* DayController.h */,
+				800F319E149C1A84007CDA06 /* DayController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TapkuCalendarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				809CD2EC14B134CD007443C0 /* QuartzCore.framework */,
+				809CD2DC14B13235007443C0 /* TapDetectingView.h */,
+				809CD2DD14B13235007443C0 /* TapDetectingView.m */,
+				809CD2DE14B13235007443C0 /* TKCalendarDayEventView.h */,
+				809CD2DF14B13235007443C0 /* TKCalendarDayEventView.m */,
+				809CD2E014B13235007443C0 /* TKCalendarDayTimelineView.h */,
+				809CD2E114B13235007443C0 /* TKCalendarDayTimelineView.m */,
+				809CD2E214B13235007443C0 /* TKCalendarDayViewController.h */,
+				809CD2E314B13235007443C0 /* TKCalendarDayViewController.m */,
+				809CD29214ACEFA2007443C0 /* TKCalendarMonthTableViewController.h */,
+				809CD29314ACEFA2007443C0 /* TKCalendarMonthTableViewController.m */,
+				809CD29414ACEFA2007443C0 /* TKCalendarMonthView.h */,
+				809CD29514ACEFA2007443C0 /* TKCalendarMonthView.m */,
+				809CD29614ACEFA3007443C0 /* TKCalendarMonthViewController.h */,
+				809CD29714ACEFA3007443C0 /* TKCalendarMonthViewController.m */,
+				809CD18C14A9CEEA007443C0 /* EventKitUI.framework */,
+				809CD18A14A9CA18007443C0 /* EventKit.framework */,
+				B50B6AD412D885B70038F6C7 /* Libraries */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TapkuCalendarDemo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TapkuCalendarDemo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50B6AD412D885B70038F6C7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B50B6AD512D885BD0038F6C7 /* TapkuLibrary */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B50B6AD512D885BD0038F6C7 /* TapkuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B50B6ADC12D885F40038F6C7 /* NSDate+TKCategory.h */,
+				B50B6ADD12D885F40038F6C7 /* NSDate+TKCategory.m */,
+				B50B6AFB12D885F40038F6C7 /* TKGlobal.h */,
+				B50B6AFC12D885F40038F6C7 /* TKGlobal.m */,
+				B50B72B312D9ED4E0038F6C7 /* UIImage+TKCategory.h */,
+				B50B72B412D9ED4E0038F6C7 /* UIImage+TKCategory.m */,
+				B50B72B512D9ED4E0038F6C7 /* UIView+TKCategory.h */,
+				B50B72B612D9ED4E0038F6C7 /* UIView+TKCategory.m */,
+			);
+			name = TapkuLibrary;
+			path = Libraries/TapkuLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TapkuCalendarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TapkuCalendarDemo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapkuCalendarDemo;
+			productName = TapkuCalendarDemo;
+			productReference = 1D6058910D05DD3D006BFB54 /* TapkuCalendarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developing in the Dark";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TapkuCalendarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TapkuCalendarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m in Sources */,
+				B50B6B3112D885F40038F6C7 /* NSDate+TKCategory.m in Sources */,
+				B50B6B4012D885F40038F6C7 /* TKGlobal.m in Sources */,
+				B50B6CFD12D888D50038F6C7 /* CalendarController.m in Sources */,
+				B50B72B712D9ED4E0038F6C7 /* UIImage+TKCategory.m in Sources */,
+				B50B72B812D9ED4E0038F6C7 /* UIView+TKCategory.m in Sources */,
+				800F319F149C1A84007CDA06 /* DayController.m in Sources */,
+				809CD10A14A155C9007443C0 /* CountdownView.m in Sources */,
+				809CD29814ACEFA3007443C0 /* TKCalendarMonthTableViewController.m in Sources */,
+				809CD29914ACEFA3007443C0 /* TKCalendarMonthView.m in Sources */,
+				809CD29A14ACEFA3007443C0 /* TKCalendarMonthViewController.m in Sources */,
+				809CD2E414B13235007443C0 /* TapDetectingView.m in Sources */,
+				809CD2E514B13235007443C0 /* TKCalendarDayEventView.m in Sources */,
+				809CD2E614B13235007443C0 /* TKCalendarDayTimelineView.m in Sources */,
+				809CD2E714B13235007443C0 /* TKCalendarDayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapkuCalendarDemo_Prefix.pch;
+				INFOPLIST_FILE = "TapkuCalendarDemo-Info.plist";
+				PRODUCT_NAME = TapkuCalendarDemo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapkuCalendarDemo_Prefix.pch;
+				INFOPLIST_FILE = "TapkuCalendarDemo-Info.plist";
+				PRODUCT_NAME = TapkuCalendarDemo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TapkuCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TapkuCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

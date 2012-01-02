@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TapkuCalendarDemoAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 593}}";
+			sepNavSelRange = "{224, 0}";
+			sepNavVisRange = "{0, 503}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1131}}";
+			sepNavSelRange = "{2726, 0}";
+			sepNavVisRange = "{1370, 1409}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TapkuCalendarDemo */ = {
+		activeExec = 0;
+		executables = (
+			B50B6A9212D8841C0038F6C7 /* TapkuCalendarDemo */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B50B6A9212D8841C0038F6C7 /* TapkuCalendarDemo */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TapkuCalendarDemo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TapkuCalendarDemo */,
+		);
+		breakpoints = (
+			B50B6FF112D927D80038F6C7 /* TKCalendarMonthView.m:340 */,
+		);
+		codeSenseManager = B50B6AAB12D884230038F6C7 /* Code sense */;
+		executables = (
+			B50B6A9212D8841C0038F6C7 /* TapkuCalendarDemo */,
+		);
+		expressions = (
+			"[marks count]",
+			index,
+			i,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					900,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317173876;
+			PBXWorkspaceStateSaveDate = 317173876;
+		};
+		perUserProjectItems = {
+			B50B6E4F12D895490038F6C7 /* PBXTextBookmark */ = B50B6E4F12D895490038F6C7 /* PBXTextBookmark */;
+			B50B6FD412D926CA0038F6C7 /* PBXTextBookmark */ = B50B6FD412D926CA0038F6C7 /* PBXTextBookmark */;
+			B50B6FD812D926D90038F6C7 /* PBXTextBookmark */ = B50B6FD812D926D90038F6C7 /* PBXTextBookmark */;
+			B50B702E12D92B8E0038F6C7 /* PBXTextBookmark */ = B50B702E12D92B8E0038F6C7 /* PBXTextBookmark */;
+			B50B70C012D9379A0038F6C7 /* PBXTextBookmark */ = B50B70C012D9379A0038F6C7 /* PBXTextBookmark */;
+			B50B71AB12D9AEC10038F6C7 /* PBXTextBookmark */ = B50B71AB12D9AEC10038F6C7 /* PBXTextBookmark */;
+			B50B71DA12D9B6B60038F6C7 /* PBXTextBookmark */ = B50B71DA12D9B6B60038F6C7 /* PBXTextBookmark */;
+			B50B71DB12D9B6B60038F6C7 /* PBXTextBookmark */ = B50B71DB12D9B6B60038F6C7 /* PBXTextBookmark */;
+			B50B71DC12D9B6B60038F6C7 /* PlistBookmark */ = B50B71DC12D9B6B60038F6C7 /* PlistBookmark */;
+			B50B72BA12D9ED600038F6C7 /* PBXTextBookmark */ = B50B72BA12D9ED600038F6C7 /* PBXTextBookmark */;
+			B50B72BF12DA026C0038F6C7 /* PBXTextBookmark */ = B50B72BF12DA026C0038F6C7 /* PBXTextBookmark */;
+			B50B72C012DA026C0038F6C7 /* PBXTextBookmark */ = B50B72C012DA026C0038F6C7 /* PBXTextBookmark */;
+			B50B72C112DA026C0038F6C7 /* PBXTextBookmark */ = B50B72C112DA026C0038F6C7 /* PBXTextBookmark */;
+			B5B2EEBA12E7B086009EB168 /* PBXTextBookmark */ = B5B2EEBA12E7B086009EB168 /* PBXTextBookmark */;
+			B5B2EEBB12E7B086009EB168 /* XCBuildMessageTextBookmark */ = B5B2EEBB12E7B086009EB168 /* XCBuildMessageTextBookmark */;
+			B5B2EEC812E7B0A6009EB168 /* PBXTextBookmark */ = B5B2EEC812E7B0A6009EB168 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B50B6AAA12D884230038F6C7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 221}}";
+			sepNavSelRange = "{119, 0}";
+			sepNavVisRange = "{0, 276}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TapkuCalendarDemo_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 186}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{0, 203}";
+		};
+	};
+	8D1107310486CEB800E47090 /* TapkuCalendarDemo-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{157, 62}, {988, 685}}";
+		};
+	};
+	B50B6A9212D8841C0038F6C7 /* TapkuCalendarDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TapkuCalendarDemo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B50B6AAA12D884230038F6C7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B50B6AAB12D884230038F6C7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B50B6ADC12D885F40038F6C7 /* NSDate+TKCategory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 1027}}";
+			sepNavSelRange = "{1479, 27}";
+			sepNavVisRange = "{1138, 991}";
+		};
+	};
+	B50B6ADD12D885F40038F6C7 /* NSDate+TKCategory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 4147}}";
+			sepNavSelRange = "{1345, 592}";
+			sepNavVisRange = "{635, 1835}";
+		};
+	};
+	B50B6AF012D885F40038F6C7 /* TKCalendarMonthTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1430}}";
+			sepNavSelRange = "{2801, 0}";
+			sepNavVisRange = "{1918, 1271}";
+		};
+	};
+	B50B6AF112D885F40038F6C7 /* TKCalendarMonthView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 1001}}";
+			sepNavSelRange = "{1659, 0}";
+			sepNavVisRange = "{894, 1463}";
+			sepNavWindowFrame = "{{111, 104}, {988, 685}}";
+		};
+	};
+	B50B6AF212D885F40038F6C7 /* TKCalendarMonthView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 12649}}";
+			sepNavSelRange = "{3579, 0}";
+			sepNavVisRange = "{2177, 240}";
+		};
+	};
+	B50B6AF312D885F40038F6C7 /* TKCalendarMonthViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 722}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1640}";
+		};
+	};
+	B50B6AF412D885F40038F6C7 /* TKCalendarMonthViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 1105}}";
+			sepNavSelRange = "{2255, 13}";
+			sepNavVisRange = "{955, 1374}";
+		};
+	};
+	B50B6CFB12D888D50038F6C7 /* CalendarController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 722}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	B50B6CFC12D888D50038F6C7 /* CalendarController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 2418}}";
+			sepNavSelRange = "{716, 1}";
+			sepNavVisRange = "{32, 2467}";
+		};
+	};
+	B50B6E4F12D895490038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 12";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 0;
+	};
+	B50B6FD412D926CA0038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TapkuCalendarDemoAppDelegate.m */;
+		name = "TapkuCalendarDemoAppDelegate.m: 80";
+		rLen = 0;
+		rLoc = 2726;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 1370;
+	};
+	B50B6FD812D926D90038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TapkuCalendarDemoAppDelegate.h */;
+		name = "TapkuCalendarDemoAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	B50B6FF112D927D80038F6C7 /* TKCalendarMonthView.m:340 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B50B6AF212D885F40038F6C7 /* TKCalendarMonthView.m */;
+		functionName = "-drawRect:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 340;
+		location = TapkuCalendarDemo;
+		modificationTime = 317173897.435359;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B50B702E12D92B8E0038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6AF012D885F40038F6C7 /* TKCalendarMonthTableViewController.m */;
+		name = "TKCalendarMonthTableViewController.m: 89";
+		rLen = 0;
+		rLoc = 2801;
+		rType = 0;
+		vrLen = 1271;
+		vrLoc = 1918;
+	};
+	B50B70C012D9379A0038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6ADC12D885F40038F6C7 /* NSDate+TKCategory.h */;
+		name = "NSDate+TKCategory.h: 51";
+		rLen = 27;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 1138;
+	};
+	B50B71AB12D9AEC10038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6ADD12D885F40038F6C7 /* NSDate+TKCategory.m */;
+		name = "NSDate+TKCategory.m: 41";
+		rLen = 592;
+		rLoc = 1345;
+		rType = 0;
+		vrLen = 1835;
+		vrLoc = 635;
+	};
+	B50B71DA12D9B6B60038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6AF112D885F40038F6C7 /* TKCalendarMonthView.h */;
+		name = "TKCalendarMonthView.h: 51";
+		rLen = 0;
+		rLoc = 1659;
+		rType = 0;
+		vrLen = 1463;
+		vrLoc = 894;
+	};
+	B50B71DB12D9B6B60038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6AF212D885F40038F6C7 /* TKCalendarMonthView.m */;
+		name = "TKCalendarMonthView.m: 896";
+		rLen = 0;
+		rLoc = 26202;
+		rType = 0;
+		vrLen = 1729;
+		vrLoc = 25396;
+	};
+	B50B71DC12D9B6B60038F6C7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TapkuCalendarDemo-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/ben/Documents/Professional/Sandbox/iOS/TapkuCalendarDemo/TapkuCalendarDemo-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	B50B72B612D9ED4E0038F6C7 /* UIView+TKCategory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 2353}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1748}";
+		};
+	};
+	B50B72BA12D9ED600038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6AF312D885F40038F6C7 /* TKCalendarMonthViewController.h */;
+		name = "TKCalendarMonthViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1640;
+		vrLoc = 0;
+	};
+	B50B72BF12DA026C0038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B72B612D9ED4E0038F6C7 /* UIView+TKCategory.m */;
+		name = "UIView+TKCategory.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1748;
+		vrLoc = 0;
+	};
+	B50B72C012DA026C0038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6AF412D885F40038F6C7 /* TKCalendarMonthViewController.m */;
+		name = "TKCalendarMonthViewController.m: 78";
+		rLen = 13;
+		rLoc = 2255;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 955;
+	};
+	B50B72C112DA026C0038F6C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6CFB12D888D50038F6C7 /* CalendarController.h */;
+		name = "CalendarController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	B5B2EEBA12E7B086009EB168 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B50B6CFC12D888D50038F6C7 /* CalendarController.m */;
+		name = "CalendarController.m: 22";
+		rLen = 1;
+		rLoc = 716;
+		rType = 0;
+		vrLen = 2467;
+		vrLoc = 32;
+	};
+	B5B2EEBB12E7B086009EB168 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "NSDate+Helper.h: No such file or directory";
+		fRef = 32CA4F630368D1EE00C91783 /* TapkuCalendarDemo_Prefix.pch */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 6;
+		rType = 1;
+	};
+	B5B2EEC812E7B0A6009EB168 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TapkuCalendarDemo_Prefix.pch */;
+		name = "TapkuCalendarDemo_Prefix.pch: 7";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+}
