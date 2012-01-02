@@ -182,7 +182,6 @@
 {
 	// If no current day was given
 	// Make it today
-	if (!self.currentDay) {
 		// Dont' want to inform the observer
         NSDateComponents *comps = [[NSDateComponents alloc] init];
         [comps setYear:2012];
@@ -196,7 +195,6 @@
         [comps release];
 
 		_currentDay = referenceTime;
-	}
 	
 	// Remove all previous view event
 	for (id view in self.scrollView.subviews) {
